@@ -1,3 +1,6 @@
+# ignore local Nordic and other vendor proprietary downloads
+/downloads/
+
 # Compiled Object files
 *.slo
 *.lo
@@ -26,3 +29,10 @@
 *.exe
 *.out
 *.app
+
+# Cscope and vim
+cscope.*
+*.swp
+
+# OS crud
+*.DS_Store
